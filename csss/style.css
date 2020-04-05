@@ -153,9 +153,38 @@ header{
 }
 
 .bottom-container{
-	background-color: white;
+
+	text-align: center;
+	padding-top: 60px;
+	color: black;
+	background-color:#95afc0;
 	width: 100%;
 }
+.bottom-container h3{
+	font-size: 30px;
+}
+.bottom-container ul{
+	text-align: justify;
+	float: right;
+	border: 0px solid black;
+	margin-top: 110px;
+	margin-right: 110px;
+	width: 50%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.bottom-container li{
+	font-size: 20px;
+    margin-bottom: 20PX;
+}
+
+.bottom-container img{
+    margin-left: -30px;
+	width: 30%;
+}
+
 
 .js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens {
 	opacity: 0;

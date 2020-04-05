@@ -114,30 +114,47 @@ header{
 	background-color: #95afc0;
 }
 .middle-container {
-	text-align: center;
-	padding: 80px 0px;
+	text-align: justify;
+	padding: 0px 0px 80px 0px;
 	background-color: #2f3640;
 	color: #d8606e;
 	width: 100%;
 }
 .middle-container ul{
+	display: grid;
+	grid-template-columns: repeat(2, auto); 
 	border: 0px solid black;
 	width: 100%;
 	list-style: none;
 }
+.middle-container img{
+	width: 22%;
+
+	float: left;
+	margin-right: 40px;
+}
+
+
+.middle-container li p {
+	margin-top: -20px;
+	opacity: 0.7;
+}
 .middle-container li{
+	width: 90%;
+	border: -px solid black;
 	color: WHITE;
-	display: inline-block;
-	margin-left: 85px;
+	margin-top: 80px;
+}
+.middle-container li h1{
+	font-size: 22px;
 }
 .imagem-paper {
 	width: 5%;
 }
 
 .bottom-container{
-	background-color: blue;
-	width: 200px;
-	height: 200px;
+	background-color: white;
+	width: 100%;
 }
 
 .js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens {

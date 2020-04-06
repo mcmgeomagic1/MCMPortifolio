@@ -13,3 +13,7 @@ $('.js--hero').waypoint(function(direction) {
 $('.js--header-imagens').waypoint(function(direction) {
 	$('.js--header-imagens').addClass('animated fadeInUp');
 }, {offset: '50%' });
+
+$('.js--middle').waypoint(function(direction) {
+	$('.js--middle').addClass('animated fadeIn');
+}, {offset: '50%' });

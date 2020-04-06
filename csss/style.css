@@ -167,7 +167,7 @@ header{
 	text-align: justify;
 	float: right;
 	border: 0px solid black;
-	margin-top: 110px;
+	margin-top: 100px;
 	margin-right: 110px;
 	width: 50%;
     list-style: none;
@@ -185,10 +185,26 @@ header{
 	width: 30%;
 }
 
+.bottom-container i {
+	color: green;
+}
 
-.js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens {
+.portifolio {
+	padding-top: 2em;
+    color: #000000;
+    background: whitesmoke;
+}
+
+.portifolio h1 {
+	margin-bottom: 5px;
+    
+}
+.galery{
+	padding-top: 2em;
+}
+.js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens, .js--middle {
 	opacity: 0;
 }
-.js--main-nav.animated, .js--main-nav-logo.animated, .js--hero.animated, .js--header-imagens{
+.js--main-nav.animated, .js--main-nav-logo.animated, .js--hero.animated, .js--header-imagens.animated, .js--middle.animated{
 	opacity: 1;
 }

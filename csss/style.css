@@ -190,18 +190,91 @@ header{
 }
 
 .portifolio {
-	padding-top: 2em;
+	padding-bottom: 6em;
+	padding-top: 3em;
     color: #000000;
     background: whitesmoke;
 }
+.portifolio p{
+	text-align: justify;
+	opacity: 0.9;
+	width: 40.3%;
+}
 
-.portifolio h1 {
+
+.portifolio .galery h4 {
 	margin-bottom: 5px;
+	font-size: 16px;
     
 }
 .galery{
-	padding-top: 2em;
+	padding-top: 3em;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
 }
+.galery figure {
+
+	width: calc(73% + 60px);
+	object-fit: cover;
+	margin-bottom: 2px;
+	overflow: hidden;
+	position: relative;
+	background-color: #2f3640;
+	transition: background-color .5s;
+}
+.galery figure:hover {
+	background-color: black;
+	opacity: 1;
+}
+
+.galery figure:first-child {
+	margin-left: 0;
+}
+
+
+.galery figure img:hover{
+	transform: translate3d(0,0,0) scale(1);
+	opacity: .9;
+}
+
+.galery img {
+
+	width: 100%;
+	height: 100%;
+	object-position: top;
+	object-fit: cover;
+	opacity: 0.3;
+	transform: translate3d( 0, -20px, 0) scale(1.12);
+	transition: all .5s;
+}
+.galery figcaption{
+    
+	color: white;
+	align-items: center;
+	position: absolute;
+	top: 0em;
+	
+}
+.galery figcaption h4{
+	width:100%;
+	color: white;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:  #d8606e;
+	padding: .5em .7em;
+}
+ 
+footer{
+	width: 100%;
+	overflow: hidden;
+	color: white;
+	background:  #2f3640;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+
 .js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens, .js--middle {
 	opacity: 0;
 }

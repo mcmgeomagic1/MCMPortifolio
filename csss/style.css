@@ -210,13 +210,13 @@ header{
 .galery{
 	padding-top: 3em;
 	display: grid;
-	grid-template-columns: repeat(5, auto);
+	grid-template-columns: repeat(4, auto);
 }
 .galery figure {
 
-	width: calc(73% + 60px);
+	width: calc(73% + 70px);
 	object-fit: cover;
-	margin-bottom: 2px;
+	margin: 2px;
 	overflow: hidden;
 	position: relative;
 	background-color: #2f3640;
@@ -270,11 +270,57 @@ footer{
 	overflow: hidden;
 	color: white;
 	background:  #2f3640;
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+.logo-footer{
+	color: #d8606e;
+	font-size: 15px;
+	text-align: center;
+	border: 0px solid black;
+	width: 15%;
+	display: inline-block;
+	float: left;
+}
+.logo-footer .logo{
+
+	margin: 0;
+	width: 70%;
 }
 
-
+.footer-box i {
+	font-size: 13px;
+	margin-right: 25px;
+}
+.footer-box .info i {
+	margin-right: 5px;
+}
+.footer-box {
+	text-align: left;
+	float: right;
+	width: 78%;
+	border: 0px solid black;
+}
+.grid-box {
+	color: rgba(255,255,255,0.7);
+	ReactDOM(<h1>."hello world".getElementById("root"))
+	width: 65%;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	border: 0px solid black;
+	float: right;
+}
+.grid-box h1 {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.grid-box ul {
+	list-style: none;
+}
+.grid-box li {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
 .js--main-nav, .js--main-nav-logo, .js--hero, .js--header-imagens, .js--middle {
 	opacity: 0;
 }

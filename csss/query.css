@@ -3,10 +3,6 @@
 /*-------------------------------------------------*/
 
 
-body {
-	color: red;
-}
-
 @media only screen and (max-width: 1200px) {
 	.hero-text {
         width: 95%;
@@ -30,9 +26,7 @@ body {
 		width: 120%;
 		margin-top: 160px;
 	}
-	.top-container {
-
-	}
+	
 	.hero-text h2 {
         font-size: 40px;
 	}
@@ -168,16 +162,14 @@ body {
 	font-size: 13px;
     
 }
-.galery figure img {
-	
-    
-}
+
 
 .galery{
 	grid-template-columns: repeat(2, auto);
 }
 footer{
 	text-align: center;
+}
 }
 
 
